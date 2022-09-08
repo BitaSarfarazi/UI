@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/xzoom.css" />
+    <title>eprevue finale</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <div class="row">
+      <div class="col-12 col-s-8 pz">
+        <ul class="menu1">
+          <li class="menuitem">
+            <img
+              src="materials/maquette3/logo-21.png"
+              class="logo-header"
+              alt="Logo"
+            />
+          </li>
+          <li class="menuitem">
+            <a class="active" href="HomePage.html">Accueil</a>
+          </li>
+          <li class="menuitem"><a href="ProductList.html"> Produits</a></li>
+          <li class="menuitem"><a href="#contact">À propos</a></li>
+          <li class="menuitem"><a href="#Support">Support</a></li>
+          <li class="menuitem-right">
+            <select class="language-box">
+              <option value="">
+                <a href="#">FR</a>
+              </option>
+              <option value="">
+                <a href="#">EN</a>
+              </option>
+            </select>
+          </li>
+          <li class="menuitem-right">
+            <img class="user-icon" src="images/user-white.png" alt="UserLogo" />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="clear-fix"></div>
+    <div class="row">
+      <div class="col-12 col-s-8 pz">
+        <img class="banner" src="images/banner3.jpg" />
+      </div>
+    </div>
+
+    <div class="clear-fix"></div>
+    <div class="row row-search">
+      <div class="search-bar col-12 col-s-8 pz">
+        <div class="col-1"></div>
+        <div class="col-3 catalog-products-title">
+          <!-- <h5>Catalog de Produtis</h5>
+            <img src="images/arrow-down.png" alt="ArrowDown" /> -->
+          <select id="page-navigator" class="page-selector">
+            <option value="ProductList.html">Portail des enchères</option>
+            <option value="HomePage.html">Accueil</option>
+          </select>
+        </div>
+        <div class="col-5"></div>
+        <div class="col-3">
+          <input
+            type="search"
+            class="search-box"
+            placeholder="Entrez la clé de recherche"
+            
+          />
+          <img
+            class="search-icon"
+            src="materials/maquette2/480px-Search_Icon.svg.png"
+            align="right"
+            width="30%"
+            height="30%"
+          />
+        </div>
+      </div>
+      <div class="clear-fix"></div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Side Bar Start Here -->
+
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-4">
+        <h5 class="side-title">Recherche Avancée</h5>
+        <div class="col-6">
+          <button class="btn-switch">Enchères</button>
+          <button class="btn-switch">Offres acceptées</button>
+        </div>
+
+      </div>
+      <div class="col-6"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div class="row">
+      <div class="col-1 col-s-2"></div>
+      <div class="col-2 col-s-2 categories-holder" style="margin-top: 25px;">
+        <ul>
+          <strong><span class="filter-title">Catégorie</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Animaux</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Drapeux</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Zones historiques</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Personnages Historique</span>
+          </li>
+        </ul>
+        <ul>
+          <strong><span class="filter-title">État</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Neuf </span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>D'occasion</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Non précisé</span>
+          </li>
+        </ul>
+        <ul>
+          <strong><span class="filter-title">Prix</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Moins de 10,00 $C </span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Entre 10,00 $C et 50,00 $C</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Plus de 50,00 $C</span>
+          </li>
+        </ul>
+
+        <ul>
+          <strong><span class="filter-title">Options d'expédition</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Expédition gratuite</span>
+          </li>
+        </ul>
+
+        <ul>
+          <strong><span class="filter-title">Afficher uniquement</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Renvois acceptés</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Vendeur autorisé</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Ventes terminées</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Ventes réussies</span>
+          </li>
+        </ul>
+
+        <ul>
+          <li style="margin-top: 25px"></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <button class="filter-btn">Plus de filters</button>
+      </div>
+
+      <!-- Side Bar End Here -->
+
+      <!-- Products Container Start -->
+      <div class="col-8 product-container">
+        <!-- Product 1 -->
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img
+                src="materials/maquette3/4652242-0-medium.jpg"
+                width="100%"
+              />
+            </div>
+            <p class="description">Canada Stamp Sheet - 1997</p>
+            <p class="price">12,19 <i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">80 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-fill.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/168106.jpg " width="100%" />
+            </div>
+            <p class="description">Oct 14, 1933 Flight Of Graf Zeppelin</p>
+            <p class="price">432,79<i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">20 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/1.jpg" width="100%" />
+            </div>
+            <p class="description">CANADA, 30482 38c Parliament bklt of 6 w/</p>
+            <p class="price">20,30 <i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">180 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/4658305-0.jpg" width="100%" />
+            </div>
+            <p class="description">ST HELENA - 1934 10s "Centenary"</p>
+            <p class="price">100,25<i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">100 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img
+                src="materials/maquette2/canada-stamp-341as-queen-elizabeth-ii-5-1954.jpg "
+                width="100%"
+              />
+            </div>
+            <p class="description">Elizabeth Stamp Sheet - 1997</p>
+            <p class="price">38,90<i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">80 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/s-l16002.jpg" width="100%" />
+            </div>
+
+            <p class="description">1950 Australia Green Coat of Arms Stamp</p>
+            <p class="price">5,88<i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">68 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/4658997-0-small.jpg" width="100%" />
+            </div>
+            <p class="description">AUSTRALIA -GEMSTONES 9c</p>
+            <p class="price">3,62<i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">22 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/s-l1600.jpg " width="100%" />
+            </div>
+            <p class="description">Canada Stamp Sheet - 1997</p>
+            <p class="price">12,19 <i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">80 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/s-l1600.jpg " width="100%" />
+            </div>
+            <p class="description">Canada DEFORMED LEAF VARIETY SCOTT</p>
+            <p class="price">12.00 <i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">22 offers</span>
+              <a class="detail" href="ProductDetail.html">Details</a>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/file_33_45.jpg " width="100%" />
+            </div>
+            <p class="description">Canada #158iii NH Mint Man</p>
+            <p class="price">2,540<i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">260 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img
+                src="materials/maquette2/canada-stamp-544pi-queen-elizabeth-ii-library-of-parliament-8-1971.jpg"
+                width="100%"
+              />
+            </div>
+            <p class="description">Belgium #435 - #445 & #B514 VF/NH Set</p>
+            <p class="price">357,5<i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">70 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <img
+            class="bookmark"
+            src="materials/maquette2/bookmark-empty.png"
+            alt=""
+          />
+          <a href="ProductDetail.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/4652237-0-small.jpg" width="100%" />
+            </div>
+            <p class="description">Italy #123c XF Mint Complete Booklet</p>
+            <p class="price">2,800<i>$C</i></p>
+            <div class="product-detail">
+              <span class="offer">150 offers</span>
+              <span class="detail">Details</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-s-8 container-before-footer">
+        <div class="col-4">
+          <img
+          class="footer-banner"
+            src="materials/maquette3/a40ed34f12f7cae1be9a1e38948b19f3.jpg "
+            style="width: 298px;" width="100%">
+
+        </div>
+        <div class="col-6" style="margin-top:20px;margin-left: 96px;">
+          <h2>Enchère de signatures aux États-Unis </h2>
+          <p>Offres d'ouverture $1 | Se termine ce soir à partir de 19 h HE </p>
+          <button style="background: #167bb9;/*! border: none; */color: white;border-radius: 5px;padding: 10px 13px;">Enchère Maintenant </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="clear-fix"></div>
+    <!-- Footer Start Here -->
+    <div class="row">
+      <div class="row">
+        <div class="col-12 col-s-8 footer">
+          <div class="col-5 col-s-4">
+            <ul>
+              <li><h4>CONTACT</h4></li>
+              <li><p>Lord Reginald Stampee</p></li>
+              <li><p>Adresse: Longueuil, rue du parc.</p></li>
+              <li><p>Telephone: +1 514-9333444</p></li>
+              <li><p>Email: stamp@Lord.com</p></li>
+            </ul>
+          </div>
+          <div class="col-4 col-s-4">
+            <ul>
+              <li><h4>POPULAR PAGES</h4></li>
+              <li><p>Contactez-Nous</p></li>
+              <li><p>À Propos de Nous</p></li>
+              <li><p>Termes et conditions</p></li>
+              <li><p>Aide et QFPs</p></li>
+            </ul>
+          </div>
+          <div class="col-3 col-s-4">
+            <ul>
+              <li><h4>Suivez-Nous</h4></li>
+              <li class="social">
+                <img src="images/facebook.png" />
+              </li>
+              <li class="social">
+                <img src="images/instagram.png" />
+              </li>
+              <li class="social">
+                <img src="images/twitte.png" />
+              </li>
+              <li><p>Alert de Lot</p></li>
+              <li><p>Inscrivez-vous à newsletter</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

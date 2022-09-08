@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/xzoom.css" />
+    <title>eprevue finale</title>
+
+  </head>
+  <body>
+    <!-- Header Start -->
+    <div class="row">
+      <div class="col-12 col-s-8 pz">
+        <ul class="menu1">
+          <li class="menuitem">
+            <img
+              src="materials/maquette3/logo-21.png"
+              class="logo-header"
+              alt="Logo"
+            />
+          </li>
+          <li class="menuitem">
+            <a class="active" href="HomePage.html">Accueil</a>
+          </li>
+          <li class="menuitem"><a href="ProductList.html"> Produits</a></li>
+          <li class="menuitem"><a href="#contact">À propos</a></li>
+          <li class="menuitem"><a href="#Support">Support</a></li>
+          <li class="menuitem-right">
+            <select class="language-box">
+              <option value="">
+                <a href="#">FR</a>
+              </option>
+              <option value="">
+                <a href="#">EN</a>
+              </option>
+            </select>
+          </li>
+          <li class="menuitem-right">
+            <img class="user-icon" src="images/user-white.png" alt="UserLogo" />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="clear-fix"></div>
+    <div class="row">
+      <div class="col-12 col-s-8 pz">
+        <img class="banner" src="images/banner3.jpg" alt="bannerImage"/>
+      </div>
+    </div>
+ </div>
+    <div class="clear-fix"></div>
+    <div class="row row-search">
+      <div class="search-bar col-12 col-s-8 pz">
+        <div class="col-1"></div>
+        <div class="col-3 catalog-products-title">
+          <select id="page-navigator" class="page-selector">
+            <option value="ProductList.html">Portail des enchères</option>
+            <option value="HomePage.html">Accueil</option>
+          </select>
+        </div>
+        <div class="col-5"></div>
+        <div class="col-3">
+          <input
+            type="search"
+            class="search-box"
+            placeholder="Enter The Search Key"
+
+            />
+
+          <img
+            class="search-icon"
+            src="materials/maquette2/480px-Search_Icon.svg.png"
+            align="right"
+            width="30%"
+            height="30%"
+         />
+        </div>
+      </div>
+      <div class="clear-fix"></div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Side Bar Start Here -->
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-4">
+        <h5 class="side-title">Recherche Avancée</h5>
+      </div>
+      <div class="col-6"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div class="row">
+      <div class="col-1 col-s-2"></div>
+      <div class="col-2 col-s-2 categories-holder">
+        <ul>
+          <strong><span class="filter-title">Catégorie</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Animaux</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Drapeux</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Zones historiques</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Personnages Historique</span>
+          </li>
+        </ul>
+        <ul>
+          <strong><span class="filter-title">État</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Neuf </span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>D'occasion</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Non précisé</span>
+          </li>
+        </ul>
+        <ul>
+          <strong><span class="filter-title">Prix</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Moins de 10,00 $C </span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Entre 10,00 $C et 50,00 $C</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Plus de 50,00 $C</span>
+          </li>
+        </ul>
+
+        <ul>
+          <strong><span class="filter-title">Options d'expédition</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Expédition gratuite</span>
+          </li>
+        </ul>
+
+        <ul>
+          <strong><span class="filter-title">Afficher uniquement</span></strong>
+          <img
+            class="arrow-icon arrow-rotate"
+            src="images/arrow-up.png"
+            alt="ArrowUp"
+          />
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Renvois acceptés</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Vendeur autorisé</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Ventes terminées</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" />
+            <span>Ventes réussies</span>
+          </li>
+        </ul>
+
+        <ul>
+          <li style="margin-top: 25px"></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <button class="filter-btn">Plus de filters</button>
+      </div>
+
+      <!-- Side Bar End Here -->
+
+      <!-- Products Container Start -->
+      <div class="col-8 product-container homepage-product-container">
+        <!-- Product 1 -->
+        <div class="col-12 home-text-holder">
+          <h3>Timbres importants et histoire postale disponibles cette semaine</h3>
+          <p class="desc-home">
+            Voici quelques-uns des lots spéciaux supplémentaires que nous avons dans
+            nos ventes de timbres et ventes  aux enchères philatéliques actuelles.
+            Cliquez ici pour les voir.
+          </p>
+        </div>
+
+        <!-- Product 1 -->
+        <div class="col-4">
+          <a href="ProductList.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/4658997-0-small.jpg" width="100%" />
+            </div>
+            <p class="descriptionLink">Australasia Stamps</p>
+            <p class="descriptionLink1">La gamme commence par une
+              spectaculaire collection de menthe
+              des années 1850 à 1920 mettant
+              en vedette l'Australie et les États-Unis.</p>
+          </a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-4">
+          <a href="ProductList.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/4656024-0-small.jpg" width="100%" />
+            </div>
+            <p class="descriptionLink">Australian Stamps</p>
+            <p class="descriptionLink1">The range features a New South
+              Wales 1905 20s cobalt blue Captain Phillip, perf. 12,
+              and a Victoria 1905-13 £2 dull blue, both very fine mint.</p>
+          </a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-4">
+          <a href="ProductList.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/4658689-0.jpg" width="100%" />
+            </div>
+            <p class="descriptionLink">GB.PENNY BLACKS</p>
+            <p class="descriptionLink1">Classics feature heavily in this sale
+              with a lovely range of 1840 Penny Blacks and a super KEVII
+              range including a substantial semi-specialised.</p>
+          </a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-4 m-t-50">
+          <a href="ProductList.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/4658676-0.jpg" width="100%" />
+            </div>
+            <p class="descriptionLink">TURKS & CAICOS IS</p>
+            <p class="descriptionLink1">We have great selection or earlier
+            material, headed by a 1873-79 1s lilac (SG 6) and an amazing
+            1867-1935 mint collection.</p>
+          </a>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-4 m-t-50">
+          <a href="ProductList.html">
+            <div class="product-img-holder">
+              <img src="materials/maquette3/4656943-0.jpg" width="100%" />
+            </div>
+            <p class="descriptionLink">1897-98 5c deep blue</p>
+            <p class="descriptionLink1">A fine selection of large and small
+            "queens", 1897 "Jubilees and 1923 "Admiral" varieties, as well
+            as a good range of Booklet panes, and Revenues.</p>
+          </a>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-4 m-t-50">
+          <a href="ProductList.html">
+            <div class="product-img-holder">
+              <img
+                src="materials/maquette3/4652242-0-medium.jpg"
+                width="100%"
+              />
+            </div>
+            <p class="descriptionLink">Bluenose Schooner</p>
+            <p class="descriptionLink1"> fine selection of large and small
+              "queens", 1897 "Jubilees and 1923 "Admiral" varieties, as well
+               as a good range of Booklet panes.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="clear-fix"></div>
+    <div class="col-12 col-s-8 mt-50 mb-25 p-40">
+      <p class="title">Enchères Populaire</p>
+      <div class="col-3">
+        <div class="similar-product">
+          <div class="img-holder">
+            <img
+              src="materials/maquette3/a40ed34f12f7cae1be9a1e38948b19f3.jpg"
+              width="100%"
+            />
+          </div>
+          <div class="prod-detail">
+            <p class="text-bold mb-25">
+              #O68 MINT WITH PF CERT
+            </p>
+            <p class="text-bold text-italic pric"> 710.00 $C </p>
+            <p>26 offres</p>
+            <span>Feb 28, 13:00 CET</span>
+            <br><br>
+            <span class="red-color">2d 7h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="similar-product">
+          <div class="img-holder">
+            <img src="materials/maquette3/4652242-0-medium.jpg " width="100%" />
+          </div>
+          <div class="prod-detail">
+            <p class="text-bold mb-25">
+              U.S. #118 USED
+            </p>
+            <p class="text-bold text-italic pric">86.00 $C </p>
+            <p>29 offres</p>
+            <span>Feb 28, 13:00 CET</span>
+            <br><br>
+            <span class="red-color">1d 5h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="similar-product">
+          <div class="img-holder">
+            <img class="banner" src="images/banner3.jpg" />
+          </div>
+          <div class="prod-detail">
+            <p class="text-bold mb-25">
+               #292 MINT OG LH
+            </p>
+            <p class="text-bold text-italic pric"> 510.00 $C  </p>
+            <p>31 offres</p>
+            <span>Feb 28, 13:00 CET</span>
+            <br><br>
+            <span class="red-color">2d 6h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="similar-product">
+          <div class="img-holder">
+            <img src="materials/maquette3/1.jpg" width="100%" />
+          </div>
+          <div class="prod-detail">
+            <p class="text-bold mb-25">
+              #25P DEFORMED LEAF
+            </p>
+            <p class="text-bold text-italic pric">12.00 $C </p>
+            <p>22 offres</p>
+            <span>Feb 28, 13:00 CET</span>
+            <br><br>
+            <span class="red-color">1d 8h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-s-8 container-before-footer">
+        <div class="col-4">
+          <img
+          class="footer-banner"
+            src="materials/maquette3/Lord-Stampee.jpg "
+            width="100%"
+          />
+        </div>
+        <div class="col-6" style="margin-top:20px;">
+          <h2 style="margin: -4px 0px;">Biographie</h2>
+          <p style="line-height: 21px;">Lord Reginald Stampee a été conservateur de la philatélie au National Postal Museum de 2002 jusqu'à sa mort en 2007. Avant son poste de conservateur,
+             il a siégé au Conseil des philatélistes du musée. Son objectif de rendre accessible au public des objets philatéliques rares a guidé son mandat
+              et celui de l'ensemble du personnel. Hulme a joué un rôle déterminant dans la présentation d'expositions telles que "The Queen's Own: Stamps
+               That Changed the World", une exposition de matériaux de la propre collection philatélique royale de la reine Elizabeth II; « Les timbres
+                prennent leur envol », présentant des documents de la collection du Postmaster General du service postal des États-Unis ; et "Rarity
+                Revealed: The Benjamin K. Miller Collection", de la célèbre collection Benjamin K. Miller, prêtée par la New York Public Library.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+    <div class="col-13 col-s-8 container-before-footer">
+      <div class="col-4">
+      </div>
+      <div class="col-6" style="margin-top:20px;text-align: center;">
+        <h3>Besoin d'aide? Nous sommes là pour vous ! Centre d'aide |  | Nous contacter </h3>
+
+
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer Start Here -->
+    <div class="row">
+      <div class="row">
+        <div class="col-12 col-s-8 footer">
+          <div class="col-5 col-s-4">
+            <ul>
+              <li><h4>CONTACT</h4></li>
+              <li><p>Lord Reginald Stampee</p></li>
+              <i class="icon-location">&nbsp;</i>
+              <li><p>Adresse: Longueuil, rue du parc.</p></li>
+              <li><p>Telephone: +1 514-9333444</p></li>
+              <li><p>Email: stamp@Lord.com</p></li>
+            </ul>
+          </div>
+          <div class="col-4 col-s-4">
+            <ul>
+              <li><h4>POPULAR PAGES</h4></li>
+              <li><p>Contactez-Nous</p></li>
+              <li><p>À Propos de Nous</p></li>
+              <li><p>Termes et conditions</p></li>
+              <li><p>Aide et QFPs</p></li>
+              <p style="padding-top: 14px; font-size="11px"">Tout les droits reserves&copy;</p>
+            </ul>
+          </div>
+          <div class="col-3 col-s-4">
+            <ul>
+              <li><h4>Suivez-Nous</h4></li>
+              <li class="social">
+                <img src="images/facebook.png" />
+              </li>
+              <li class="social">
+                <img src="images/instagram.png" />
+              </li>
+              <li class="social">
+                <img src="images/twitte.png" />
+              </li>
+              <li><p>Alert de Lot</p></li>
+              <p>Inscrivez-vous à newsletter</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
